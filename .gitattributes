@@ -1,0 +1,14 @@
+# 换行符统一：仓库内一律存 LF，跨平台检出保持一致
+* text=auto eol=lf
+
+# Windows 批处理脚本保留 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不参与换行符转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.ttf binary
+*.otf binary
